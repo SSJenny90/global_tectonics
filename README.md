@@ -2,7 +2,7 @@
 
 The global_tectonics package is a set of shapefiles that can be used for analysis of Earth science data.  For each shapefile, there is an associated *.gmt file in Generic Mapping Tools (GMT) vector format.  There are several models as part of the package, which includes a present-day plate model and a geologic province model.  The models include metadata that permit the creation of several related (and seamless) maps including the lithospheric type (oceanic/continental), last orogenic event, and oceanic domains.
 
-![Tectonic maps for data analysis applications in solid Earth science](/global_tectonics_repository_image.png)
+![Tectonic maps for data analysis applications in solid Earth science](images/global_tectonics_repository_image.png)
 
 Details about the construction of the models is discussed in Hasterok, D., Halpin, J., Hand, M., Collins, A., Kreemer, C., Glorie, S., (submitted) New maps of global geologic provinces and tectonic plates, Earth Science Reviews.
 
@@ -16,25 +16,25 @@ Updated plates, boundaries, oc_boundaries and global_gprv following review.  For
 
 ## Included Files
 
-* plates.shp
+* [plates.shp](plates&provinces/shp/plates.shp)
   
   Polygons of tectonic plates and crust types
 
-* boundaries.shp
+* [boundaries.shp](plates&provinces/shp/boundaries.shp)
   
   Lines of plate boundary types
 
-* oc_boundaries.shp
+* [oc_boundaries.shp](plates&provinces/shp/oc_boundaries.shp)
   
   Lines demarcating the ocean-continent boundary
 
-* global_gprv.shp 
+* [global_gprv.shp](plates&provinces/shp/global_gprv.shp) 
   
   Polygons of global geologic provinces
   
-* cratons.shp
+* [cratons.shp](plates&provinces/shp/cratons.shp)
   
-  Regions with geochemical samples or that are known to have Archean (>2500 Ma) basement;  the polygons have largely been extracted from global_gprv.shp aside from a few in the western US from Lund et al. (2015, https://doi.org/10.3133%2Fds898);  an additional column in the attribute table has been added to identify post-Archean reworking
+  Regions with geochemical samples or that are known to have Archean (>2500 Ma) basement;  the polygons have largely been extracted from global_gprv.shp aside from a few in the western US from [Lund et al. (2015)](https://doi.org/10.3133%2Fds898) an additional column in the attribute table has been added to identify post-Archean reworking
 
 
 ## Contributing
